@@ -91,11 +91,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jelte Liekens";
 				TargetAttributes = {
 					EF84F58B1D56516800B72A77 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8V29E5BASS;
+						DevelopmentTeamName = "Jelte Liekens (Personal Team)";
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -253,6 +256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.jelteliekens.BluetoothPeripheral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +268,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.jelteliekens.BluetoothPeripheral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +292,7 @@
 				EF84F5A01D56516800B72A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
